@@ -1,6 +1,19 @@
 ::Copyright (C) 2020 D. Michael Parrish
 ::Licensed under GLP-3
+::
 ::Tested on Windows 10 Enterprise Version 1803 OS Build 17134.1184
+::
+::NOTES
+::
+:: - Most users will need to change the final command so that their
+::   versions of R are launched.
+::
+:: - Most users will also need to change the "erase /p H:\Docs\.RData"
+::   command so that the .RData files for their systems are targeted.
+::
+:: - If .RData is already deleted, expect a message like,
+::   "Could Not Find H:\Docs\.RData"
+::
 echo off
 color 4E
 ::
